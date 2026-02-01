@@ -1,12 +1,8 @@
 # QR Code Generator (Python)
 
-A simple Python CLI tool that generates a QR code image from a URL.
+A simple Python program that generates a QR code image from a URL.
 
 ---
-
-## Requirements
-- Python 3.8+
-- `qrcode` library
 
 Install dependencies:
 ```bash
@@ -20,3 +16,8 @@ pip install qrcode[pil]
 # Output
 - A file named qrcode.png will be generated in the same directory.
 - The QR code contains the provided URL.
+
+
+## Requirements
+- Python 3.8+
+- `qrcode` library
