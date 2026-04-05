@@ -12,3 +12,6 @@ python3 -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
 unzip data/creditcard.zip
+
+### Run the program after all dependencies have been installed
+python3 src/testAutoEncoder.py
